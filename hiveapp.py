@@ -16,7 +16,7 @@ def load_image(image_path):
         return None
 
 with col1:
-    logo_path = load_image("images/logo b.PNG")
+    logo_path = load_image("images/logo b.png")
     if logo_path:
         st.image(logo_path, width=80)  # Adjust the image path and width
 

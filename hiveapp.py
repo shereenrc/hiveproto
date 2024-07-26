@@ -49,7 +49,7 @@ captions = [
 images = [load_image(path) for path in image_paths]
 
 # Create a slideshow
-selected_index = st.selectbox("Select a step to view:", range(len(images)), format_func=lambda x: captions[x])
+selected_index = st.selectbox("TUTORIAL - Select a step to view:", range(len(images)), format_func=lambda x: captions[x])
 if images[selected_index]:
     st.image(images[selected_index], caption=captions[selected_index], use_column_width=True)
 

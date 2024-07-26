@@ -16,7 +16,7 @@ def load_image(image_path):
         return None
 
 with col1:
-    logo_path = load_image("images/logo.jpg")
+    logo_path = load_image("images/logo b.PNG")
     if logo_path:
         st.image(logo_path, width=80)  # Adjust the image path and width
 
@@ -30,11 +30,11 @@ With Insight Hive, you can easily upload your data, visualize it, and gain insig
 
 # Image paths and captions
 image_paths = [
-    "Capture Step 1 CSV.PNG",
-    "Capture Step 2.PNG",
-    "Capture Step 3.PNG",
-    "Capture Step 4.PNG",
-    "Capture Step 5.PNG"
+    "images/Capture Step 1 CSV.PNG",
+    "images/Capture Step 2.PNG",
+    "images/Capture Step 3.PNG",
+    "images/Capture Step 4.PNG",
+    "images/Capture Step 5.PNG"
 ]
 
 captions = [

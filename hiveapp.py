@@ -21,7 +21,7 @@ with col1:
         st.image(logo_path, width=80)  # Adjust the image path and width
 
 with col2:
-    st.title("Insight Hive - Self-Service Analytics for SMEs")
+    st.title("Insight Hive")
 
 st.markdown("""
 Welcome to the Insight Hive prototype! This app showcases the basic features of our data science tool designed for business owners and SMEs.

@@ -18,7 +18,7 @@ def load_image(image_path):
 with col1:
     logo_path = load_image("images/logo.jpg")
     if logo_path:
-        st.image(logo_path, width=100)  # Adjust the image path and width
+        st.image(logo_path, width=80)  # Adjust the image path and width
 
 with col2:
     st.title("Insight Hive - Self-Service Analytics for SMEs")

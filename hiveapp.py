@@ -30,12 +30,12 @@ With Insight Hive, you can easily upload your data, visualize it, and gain insig
 
 # Image paths and captions
 image_paths = [
-    "Capture Step 1.png",
-    "Capture Step 1 CSV.png",
-    "Capture Step 2.png",
-    "Capture Step 3.png",
-    "Capture Step 4.png",
-    "Capture Step 5.png"
+    "Capture Step 1.PNG",
+    "Capture Step 1 CSV.PNG",
+    "Capture Step 2.PNG",
+    "Capture Step 3.PNG",
+    "Capture Step 4.PNG",
+    "Capture Step 5.PNG"
 ]
 
 captions = [
